@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Poetry virtual environment (if using .venv)
+.venv/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.*
+
+# Alembic cache
+alembic/versions/__pycache__/
+
+# Logs and local debug files
+*.log
+*.sqlite3
+*.db
+
+# Docker
+*.pid
+*.pid.lock
+*.pidfile
+docker-compose.override.yml
+pgdata/
+__dockerized__/
+
+# Pytest & coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.cache/
+.tox/
+
+# Mac & system junk
+.DS_Store
+Thumbs.db
