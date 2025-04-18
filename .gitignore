@@ -19,8 +19,6 @@ build/
 
 # Environment variables
 .env
-.env.*
-
 # Alembic cache
 alembic/versions/__pycache__/
 
